@@ -12,23 +12,27 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 100px;  
-    background: rgb(255, 255, 255);
+    background:#ccc;
+    font-weight: 900;
 }
 
 #app {
-    box-shadow: 1px 1px 10px 1px #ccc;
+    box-shadow: 1px 1px 10px 1px lightblue;
     padding: 20px;
+    background: rgb(255, 255, 255)
 }
 .root {
     cursor: pointer;
     align-content: center;
     align-items: center;
+    margin-top: 5px;
 }
 
 .units {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
     
 }
 .unit{
@@ -37,6 +41,7 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
+    margin-top: 5px;
 }
 
 .inside, .units {
@@ -45,6 +50,7 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
+    margin-top: 5px;
 }
 .links{
     color: red;
