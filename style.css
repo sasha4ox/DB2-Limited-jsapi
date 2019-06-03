@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;  
+    background: rgb(255, 255, 255);
+}
+
+#app {
+    box-shadow: 1px 1px 10px 1px #ccc;
+    padding: 20px;
+}
+.root {
+    cursor: pointer;
+    align-content: center;
+    align-items: center;
+}
+
+.units {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.unit{
+    color: midnightblue;
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.inside, .units {
+    color: green;
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.links{
+    color: red;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
